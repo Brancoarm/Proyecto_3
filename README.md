@@ -31,6 +31,6 @@ Para usar o modificar este proyecto localmente, sigue estos pasos:
    git clone https://github.com/Brancoarm/Proyecto_3.git
 
    Contacto
-Si tienes alguna pregunta o sugerencia, no dudes en contactarnos a través de tu_correo@ejemplo.com.
+Si tienes alguna pregunta o sugerencia, no dudes en contactarnos a través de branco.riffo.m@gmail.com
 
 ¡Gracias por visitar RehabilitaNET! Juntos podemos hacer una diferencia en la salud y el bienestar a través de la tecnología.
