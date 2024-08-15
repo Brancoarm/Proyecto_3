@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué Hacemos? - RehabilitaNet</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            color: #fff;
+        }
+        header img {
+            height: 60px;
+            margin-right: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #002244;
+        }
+        .main-content {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .main-content h1 {
+            color: #003366;
+            margin-bottom: 20px;
+        }
+        .main-content p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .service {
+            background-color: #e6e6e6;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+        }
+        .service h3 {
+            color: #003366;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            header img {
+                height: 50px;
+            }
+            nav a {
+                padding: 10px 15px;
+            }
+            .main-content {
+                padding: 20px 10px;
+            }
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+            .service {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logorehabilitanet.jpg" alt="RehabilitaNet">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="quienes-somos.html">¿Quiénes Somos?</a>
+            <a href="que-hacemos.html">¿Qué Hacemos?</a>
+            <a href="como-lo-hacemos.html">¿Cómo lo Hacemos?</a>
+            <a href="otros-servicios.html">Otros Servicios</a>
+            <a href="rehabilitanet-Academy.html">Rehabilitanet Academy</a>
+        </nav>
+    </header>
+    <main class="main-content">
+        <h1>¿Qué Hacemos?</h1>
+        <p>En RehabilitaNet, nos especializamos en proporcionar tratamientos avanzados de rehabilitación neurológica que ayudan a nuestros pacientes a recuperar la funcionalidad y mejorar su calidad de vida. Utilizamos tecnología de vanguardia y técnicas innovadoras para asegurar los mejores resultados posibles.</p>
+        <div class="services">
+            <div class="service">
+                <h3>Terapias Personalizadas</h3>
+                <p>Ofrecemos planes de tratamiento adaptados a las necesidades específicas de cada paciente, asegurando un enfoque personalizado en su proceso de rehabilitación.</p>
+            </div>
+            <div class="service">
+                <h3>Evaluaciones Complejas</h3>
+                <p>Realizamos evaluaciones detalladas para identificar las áreas que requieren intervención, utilizando herramientas avanzadas de diagnóstico y seguimiento.</p>
+            </div>
+            <div class="service">
+                <h3>Soporte Integral</h3>
+                <p>Proporcionamos un soporte integral que incluye asesoramiento, seguimiento continuo y acceso a una red de profesionales expertos en rehabilitación neurológica.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2024 RehabilitaNet. Todos los derechos reservados.
+    </footer>
+</body>
+</html>

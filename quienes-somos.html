@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quiénes Somos? - RehabilitaNet</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            color: #fff;
+        }
+        header img {
+            height: 60px;
+            margin-right: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #002244;
+        }
+        .main-content {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .main-content h1 {
+            color: #003366;
+            margin-bottom: 20px;
+        }
+        .main-content p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .values {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .value {
+            background-color: #e6e6e6;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+        }
+        .value h3 {
+            color: #003366;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            header img {
+                height: 50px;
+            }
+            nav a {
+                padding: 10px 15px;
+            }
+            .main-content {
+                padding: 20px 10px;
+            }
+            .values {
+                flex-direction: column;
+                align-items: center;
+            }
+            .value {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logorehabilitanet.jpg" alt="RehabilitaNet">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="quienes-somos.html">¿Quiénes Somos?</a>
+            <a href="que-hacemos.html">¿Qué Hacemos?</a>
+            <a href="como-lo-hacemos.html">¿Cómo lo Hacemos?</a>
+            <a href="otros-servicios.html">Otros Servicios</a>
+            <a href="rehabilitanet-Academy.html">Rehabilitanet-Academy</a>
+        </nav>
+    </header>
+    <main class="main-content">
+        <h1>¿Quiénes Somos?</h1>
+        <p>RehabilitaNet es una empresa dedicada a mejorar los procesos de rehabilitación a través del uso de tecnología avanzada. Nuestro enfoque se basa en datos para evaluar y optimizar continuamente nuestros procesos, asegurando que nuestros clientes reciban el mejor cuidado posible. Con un equipo multidisciplinario de expertos, nos esforzamos por innovar y liderar en el campo de la rehabilitación neurológica.</p>
+        <div class="values">
+            <div class="value">
+                <h3>Innovación</h3>
+                <p>Utilizamos las últimas tecnologías y enfoques basados en datos para ofrecer tratamientos de vanguardia.</p>
+            </div>
+            <div class="value">
+                <h3>Compromiso</h3>
+                <p>Estamos comprometidos con la excelencia y la mejora continua de nuestros servicios.</p>
+            </div>
+            <div class="value">
+                <h3>Calidad</h3>
+                <p>Garantizamos un alto estándar de calidad en todos nuestros procesos y tratamientos.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2024 RehabilitaNet. Todos los derechos reservados.
+    </footer>
+</body>
+</html>

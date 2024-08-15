@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otros Servicios - RehabilitaNet</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            color: #fff;
+        }
+        header img {
+            height: 60px;
+            margin-right: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #002244;
+        }
+        .main-content {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .main-content h1 {
+            color: #003366;
+            margin-bottom: 20px;
+        }
+        .main-content p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .form-container {
+            background-color: #e6e6e6;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .form-container label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .form-container input, .form-container select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container button {
+            background-color: #003366;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .form-container button:hover {
+            background-color: #002244;
+        }
+        footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            header img {
+                height: 50px;
+            }
+            nav a {
+                padding: 10px 15px;
+            }
+            .main-content {
+                padding: 20px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logorehabilitanet.jpg" alt="RehabilitaNet">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="quienes-somos.html">¿Quiénes Somos?</a>
+            <a href="que-hacemos.html">¿Qué Hacemos?</a>
+            <a href="como-lo-hacemos.html">¿Cómo lo Hacemos?</a>
+            <a href="otros-servicios.html">Otros Servicios</a>
+            <a href="rehabilitane-tacademy.html">Rehabilitanet Academy</a>
+        </nav>
+    </header>
+    <main class="main-content">
+        <h1>Otros Servicios</h1>
+        <p>En RehabilitaNet, ofrecemos una variedad de servicios adicionales para apoyar la rehabilitación y el bienestar de nuestros pacientes. Por favor, regístrate para obtener más información sobre nuestros servicios.</p>
+        <div class="form-container">
+            <form id="registrationForm">
+                <label for="nombres">Nombres:</label>
+                <input type="text" id="nombres" name="nombres" required>
+                
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+                
+                <label for="rut">RUT:</label>
+                <input type="text" id="rut" name="rut" required>
+                
+                <label for="pais">País:</label>
+                <select id="pais" name="pais" required>
+                    <option value="">Seleccione su país</option>
+                    <option value="chile">Chile</option>
+                    <option value="argentina">Argentina</option>
+                    <!-- Agregar más países según sea necesario -->
+                </select>
+                
+                <label for="region">Región:</label>
+                <input type="text" id="region" name="region" required>
+                
+                <label for="comuna">Comuna:</label>
+                <input type="text" id="comuna" name="comuna" required>
+                
+                <label for="calle">Calle:</label>
+                <input type="text" id="calle" name="calle" required>
+                
+                <label for="numeracion">Numeración:</label>
+                <input type="text" id="numeracion" name="numeracion" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                
+                <button type="submit">Registrar datos</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        &copy; 2024 RehabilitaNet. Todos los derechos reservados.
+    </footer>
+    <script src="Registrar.js"></script>
+</body>
+</html>
